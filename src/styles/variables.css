@@ -1,0 +1,17 @@
+:root {
+  --primary-purple: #7B2FBE;
+  --primary-purple-rgb: 123, 47, 190;
+  --secondary-purple: #9D50E6;
+  --dark-bg: #0A0A0B;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(15, 15, 15, 0.7);
+  --text-primary: #FFFFFF;
+  --text-secondary: #B3B3B3;
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  --bs-body-bg: var(--dark-bg);
+  --bs-body-color: var(--text-primary);
+}
